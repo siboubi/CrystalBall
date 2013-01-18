@@ -18,7 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    NSArray *predictionArray = [[NSArray alloc] initWithObjects:@"It is certain", @"It is decidedly so",@"All signs say YES",
+    predictionArray = [[NSArray alloc] initWithObjects:@"It is certain", @"It is decidedly so",@"All signs say YES",
                                 @"The stars are not aligned",
                                 @"My reply is no",
                                 @"It is doubtful",
