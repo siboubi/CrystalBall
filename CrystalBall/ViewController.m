@@ -38,6 +38,6 @@
                        @"Concentrate and ask again",
                        @"Unable to answer now", nil];
     
-    self.predictionLabel.text = [predictionArray objectAtIndex:15];
+    self.predictionLabel.text = [predictionArray objectAtIndex:0];
 }
 @end
