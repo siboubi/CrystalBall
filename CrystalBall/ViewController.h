@@ -14,4 +14,7 @@
 - (IBAction)buttonPressed:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UILabel *predictionLabel;
 
+- (NSArray*) getPredictionArray;
+- (void) setPredictionArray: (NSArray *) array;
+
 @end

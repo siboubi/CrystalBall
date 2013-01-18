@@ -36,7 +36,7 @@
 - (IBAction)buttonPressed:(UIButton *)sender {
     NSString *myString = @"My name is Steve";
     [myString length];
-    [myString uppercaseString];
+    myString = [myString uppercaseString];
     
     self.predictionLabel.text = [predictionArray objectAtIndex:0];
 }
