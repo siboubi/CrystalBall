@@ -15,7 +15,4 @@
 @property (strong, nonatomic) IBOutlet UILabel *predictionLabel;
 @property (strong, nonatomic) NSArray *predictionArray;
 
-- (NSArray*) getPredictionArray;
-- (void) setPredictionArray: (NSArray *) array;
-
 @end
