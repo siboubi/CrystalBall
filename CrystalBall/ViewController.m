@@ -26,4 +26,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonPressed:(UIButton *)sender {
+    NSString *myString = @"My name is Steve";
+    [myString length];
+    [myString uppercaseString];
+    
+    self.predictionLabel.text = myString;
+}
 @end
