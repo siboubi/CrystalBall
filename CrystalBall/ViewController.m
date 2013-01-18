@@ -13,6 +13,8 @@
 @end
 
 @implementation ViewController
+@synthesize predictionLabel;
+@synthesize predictionArray;
 
 - (void)viewDidLoad
 {
