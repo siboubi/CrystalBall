@@ -18,6 +18,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSArray *predictionArray = [[NSArray alloc] initWithObjects:@"It is certain", @"It is decidedly so",@"All signs say YES",
+                                @"The stars are not aligned",
+                                @"My reply is no",
+                                @"It is doubtful",
+                                @"Better not tell you now",
+                                @"Concentrate and ask again",
+                                @"Unable to answer now", nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -30,13 +37,6 @@
     NSString *myString = @"My name is Steve";
     [myString length];
     [myString uppercaseString];
-    NSArray *predictionArray = [[NSArray alloc] initWithObjects:@"It is certain", @"It is decidedly so",@"All signs say YES",
-                       @"The stars are not aligned",
-                       @"My reply is no",
-                       @"It is doubtful",
-                       @"Better not tell you now",
-                       @"Concentrate and ask again",
-                       @"Unable to answer now", nil];
     
     self.predictionLabel.text = [predictionArray objectAtIndex:0];
 }
