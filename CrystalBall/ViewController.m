@@ -20,7 +20,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    predictionArray = [[NSArray alloc] initWithObjects:@"It is certain", @"It is decidedly so",@"All signs say YES",
+    self.predictionArray = [[NSArray alloc] initWithObjects:@"It is certain", @"It is decidedly so",@"All signs say YES",
                                 @"The stars are not aligned",
                                 @"My reply is no",
                                 @"It is doubtful",
@@ -40,6 +40,6 @@
     [myString length];
     myString = [myString uppercaseString];
     
-    self.predictionLabel.text = [predictionArray objectAtIndex:0];
+    self.predictionLabel.text = [self.predictionArray objectAtIndex:0];
 }
 @end
